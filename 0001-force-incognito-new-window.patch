@@ -1,0 +1,25 @@
+From 28202d56ae7149539b6b9014025098bdc7e93946 Mon Sep 17 00:00:00 2001
+From: Ruslan Pegov <rp@mosqit.ru>
+Date: Fri, 15 Sep 2017 18:52:11 +0000
+Subject: [PATCH] force incognito new window
+
+---
+ chrome/app/chrome_command_ids.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/chrome/app/chrome_command_ids.h b/chrome/app/chrome_command_ids.h
+index 09407f9..8deb074 100644
+--- a/chrome/app/chrome_command_ids.h
++++ b/chrome/app/chrome_command_ids.h
+@@ -35,7 +35,7 @@
+ #define IDC_RELOAD_CLEARING_CACHE       33009
+ 
+ // Window management commands
+-#define IDC_NEW_WINDOW                  34000
++#define IDC_NEW_WINDOW                  34001
+ #define IDC_NEW_INCOGNITO_WINDOW        34001
+ #define IDC_PIN_TO_START_SCREEN         34005
+ #define IDC_CLOSE_WINDOW                34012
+-- 
+2.3.1
+
